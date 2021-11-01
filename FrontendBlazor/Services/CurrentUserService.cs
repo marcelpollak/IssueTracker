@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace FrontendBlazor
 {
+    // copied from https://github.com/kalintsenkov/BlazorShop
     public class CurrentUserService : ICurrentUserService
     {
         public CurrentUserService(IHttpContextAccessor httpContextAccessor)
